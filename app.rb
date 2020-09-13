@@ -7,7 +7,7 @@ class App < Sinatra::Base
   
   post '/newteam' do 
     @a = []
-    b = []
+    b = ['Team Name']
     i = 0
     params.each do |k,v| 
       @a << "#{k}: #{v}"
